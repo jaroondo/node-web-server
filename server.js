@@ -53,4 +53,4 @@ app.listen(5500, '127.0.0.1', () => {
     console.log('Server is running. "Go Live" on 127.0.0.1:5500 in browser.');
 });
 
-// zmena
+// zmena 2
