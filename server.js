@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('hbs');
 const fs = require('fs');
 
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 3000;
 var app = express();
 
 hbs.registerPartials(__dirname + '/views/partials');
@@ -51,5 +51,5 @@ app.get('/bad', (req, res) => {
 });
 
 app.listen(port, '127.0.0.1', () => {
-    console.log(`Server is running. "Go Live" on 127.0.0.1:${port} in browser.`);
+    console.log(`Server is running on localhost:${port} in browser.`);
 });
