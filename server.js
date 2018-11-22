@@ -50,6 +50,6 @@ app.get('/bad', (req, res) => {
     });
 });
 
-app.listen(port, '127.0.0.1', () => {
+app.listen(port, () => {
     console.log(`Server is running on localhost:${port} in browser.`);
 });
